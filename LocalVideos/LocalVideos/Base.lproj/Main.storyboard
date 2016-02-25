@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LocalVideos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7i3-Sc-tAQ">
+                                <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
+                                <subviews>
+                                    <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bGK-Cm-kdf">
+                                        <rect key="frame" x="0.0" y="0.0" width="383" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="l91-Hi-f5J"/>
+                                        </constraints>
+                                        <items>
+                                            <navigationItem title="Title" id="Rcd-wa-iX7"/>
+                                        </items>
+                                    </navigationBar>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GeA-MU-mRJ">
+                                        <rect key="frame" x="0.0" y="44" width="383" height="623"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="623" id="XBY-LJ-gbA"/>
+                                        </constraints>
+                                    </tableView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="bGK-Cm-kdf" firstAttribute="leading" secondItem="7i3-Sc-tAQ" secondAttribute="leading" id="BU0-fd-8lG"/>
+                                    <constraint firstAttribute="trailing" secondItem="bGK-Cm-kdf" secondAttribute="trailing" id="Ecs-ym-Dvj"/>
+                                    <constraint firstItem="GeA-MU-mRJ" firstAttribute="centerX" secondItem="7i3-Sc-tAQ" secondAttribute="centerX" id="FfH-nf-tPU"/>
+                                    <constraint firstItem="GeA-MU-mRJ" firstAttribute="top" secondItem="bGK-Cm-kdf" secondAttribute="bottom" id="O91-uS-1i4"/>
+                                    <constraint firstAttribute="bottom" secondItem="GeA-MU-mRJ" secondAttribute="bottom" id="P7A-qB-G3n"/>
+                                    <constraint firstItem="GeA-MU-mRJ" firstAttribute="leading" secondItem="7i3-Sc-tAQ" secondAttribute="leading" id="gFF-Qo-Hd3"/>
+                                    <constraint firstAttribute="trailing" secondItem="GeA-MU-mRJ" secondAttribute="trailing" id="mdV-0u-3dY"/>
+                                    <constraint firstItem="bGK-Cm-kdf" firstAttribute="top" secondItem="7i3-Sc-tAQ" secondAttribute="top" id="r2k-AO-V9x"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7i3-Sc-tAQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="4jD-OC-IvF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7i3-Sc-tAQ" secondAttribute="trailing" constant="-20" id="B7T-B2-G6g"/>
+                            <constraint firstItem="7i3-Sc-tAQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="Uwl-WC-eCy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7i3-Sc-tAQ" secondAttribute="bottom" id="e16-yW-wpH"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="564.5" y="490.5"/>
+        </scene>
+    </scenes>
+</document>
