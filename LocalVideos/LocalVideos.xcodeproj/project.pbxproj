@@ -12,6 +12,8 @@
 		DBF04B371C7F7A9C0069A451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF04B351C7F7A9C0069A451 /* Main.storyboard */; };
 		DBF04B391C7F7A9C0069A451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF04B381C7F7A9C0069A451 /* Assets.xcassets */; };
 		DBF04B3C1C7F7A9C0069A451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF04B3A1C7F7A9C0069A451 /* LaunchScreen.storyboard */; };
+		DBF04B441C7FAC3F0069A451 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF04B431C7FAC3F0069A451 /* VideoCell.swift */; };
+		DBF04B461C81E79C0069A451 /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DBF04B451C81E79C0069A451 /* emoji zone.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DBF04B381C7F7A9C0069A451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBF04B3B1C7F7A9C0069A451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBF04B3D1C7F7A9C0069A451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF04B431C7FAC3F0069A451 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		DBF04B451C81E79C0069A451 /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				DBF04B311C7F7A9C0069A451 /* AppDelegate.swift */,
 				DBF04B331C7F7A9C0069A451 /* ViewController.swift */,
 				DBF04B351C7F7A9C0069A451 /* Main.storyboard */,
+				DBF04B451C81E79C0069A451 /* emoji zone.mp4 */,
+				DBF04B431C7FAC3F0069A451 /* VideoCell.swift */,
 				DBF04B381C7F7A9C0069A451 /* Assets.xcassets */,
 				DBF04B3A1C7F7A9C0069A451 /* LaunchScreen.storyboard */,
 				DBF04B3D1C7F7A9C0069A451 /* Info.plist */,
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBF04B3C1C7F7A9C0069A451 /* LaunchScreen.storyboard in Resources */,
+				DBF04B461C81E79C0069A451 /* emoji zone.mp4 in Resources */,
 				DBF04B391C7F7A9C0069A451 /* Assets.xcassets in Resources */,
 				DBF04B371C7F7A9C0069A451 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			files = (
 				DBF04B341C7F7A9C0069A451 /* ViewController.swift in Sources */,
 				DBF04B321C7F7A9C0069A451 /* AppDelegate.swift in Sources */,
+				DBF04B441C7FAC3F0069A451 /* VideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 				DBF04B421C7F7A9C0069A451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
