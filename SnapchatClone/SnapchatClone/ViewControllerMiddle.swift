@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewControllerMiddle: UIViewController {
 
@@ -15,6 +16,57 @@ class ViewControllerMiddle: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+	
+	let captureSession = AVCaptureSession()
+	var captureDevice :AVCaptureDevice?
+	
+	override func viewDidAppear(animated: Bool) {
+		captureSession.sessionPreset = AVCaptureSessionPresetLow
+		
+		let devices = AVCaptureDevice.devices()
+		
+		for device in devices {
+			print(device)
+			if(device.hasMediaType(AVMediaTypeVideo)) {
+				if(device.position == AVCaptureDevicePosition.Back) {
+					captureDevice = device as? AVCaptureDevice
+					print("Device found!")
+				}
+			}
+		}
+		
+		if captureDevice != nil {
+			beginSession()
+		}
+		
+	}
+	
+	func beginSession() {
+		var err : NSError? = nil
+		do {
+			try captureSession.addInput(AVCaptureDeviceInput(device: captureDevice))
+		} catch {
+			print(err)
+		}
+		
+		
+		if err != nil {
+			print("error: \(err?.localizedDescription)")
+		}
+		
+		let previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
+		self.view.layer.addSublayer(previewLayer)
+		previewLayer?.frame = self.view.layer.frame
+		captureSession.startRunning()
+	}
+	
+	/*
+if let device = captureDevice {
+// device.lockForConfiguration()
+device.focusMode = .Locked
+device.unlockForConfiguration()
+}
+*/
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
