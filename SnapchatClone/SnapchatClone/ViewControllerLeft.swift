@@ -12,7 +12,7 @@ class ViewControllerLeft: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+	
         // Do any additional setup after loading the view.
     }
 
@@ -20,6 +20,7 @@ class ViewControllerLeft: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+	
     
 
     /*
