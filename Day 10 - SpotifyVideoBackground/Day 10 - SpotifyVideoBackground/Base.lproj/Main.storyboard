@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Day_10___SpotifyVideoBackground" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ambience-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ybu-TD-a3j">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZLV-nd-I7N">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-secondary-logo" translatesAutoresizingMaskIntoConstraints="NO" id="YcH-6c-Hzw">
+                                <rect key="frame" x="59" y="28" width="256" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7q-0L-FxP">
+                                <rect key="frame" x="29" y="530" width="316" height="52"/>
+                                <color key="backgroundColor" red="0.19215686274509802" green="0.63921568627450975" blue="0.015686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Lll-9e-cOp"/>
+                                </constraints>
+                                <state key="normal" title="Log in">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QmA-pc-tS9">
+                                <rect key="frame" x="29" y="590" width="316" height="52"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="zNj-Yy-tlG"/>
+                                </constraints>
+                                <state key="normal" title="Sign up">
+                                    <color key="titleColor" red="0.19215686269999999" green="0.63921568630000003" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YcH-6c-Hzw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="43" id="1aE-rS-NXP"/>
+                            <constraint firstItem="Ybu-TD-a3j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5IE-FB-3hI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QmA-pc-tS9" secondAttribute="bottom" constant="25" id="5TW-U8-pKc"/>
+                            <constraint firstItem="QmA-pc-tS9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="LLd-hc-yAw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YcH-6c-Hzw" secondAttribute="bottom" constant="511" id="Nb2-jQ-dup"/>
+                            <constraint firstItem="QmA-pc-tS9" firstAttribute="top" secondItem="h7q-0L-FxP" secondAttribute="bottom" constant="8" id="QAP-LI-rWr"/>
+                            <constraint firstItem="ZLV-nd-I7N" firstAttribute="trailing" secondItem="Ybu-TD-a3j" secondAttribute="trailing" id="UsL-hT-G1J"/>
+                            <constraint firstItem="YcH-6c-Hzw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="c8l-am-TbQ"/>
+                            <constraint firstItem="Ybu-TD-a3j" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="de4-s1-Zp0"/>
+                            <constraint firstItem="ZLV-nd-I7N" firstAttribute="leading" secondItem="Ybu-TD-a3j" secondAttribute="leading" id="mho-8z-IuV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h7q-0L-FxP" secondAttribute="trailing" constant="14" id="q7v-uj-jhs"/>
+                            <constraint firstItem="Ybu-TD-a3j" firstAttribute="centerX" secondItem="YcH-6c-Hzw" secondAttribute="centerX" id="rHL-Ur-Ywk"/>
+                            <constraint firstItem="h7q-0L-FxP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="sAz-XN-tyx"/>
+                            <constraint firstItem="ZLV-nd-I7N" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="voA-3F-Fk4"/>
+                            <constraint firstItem="ZLV-nd-I7N" firstAttribute="top" secondItem="Ybu-TD-a3j" secondAttribute="top" id="wcl-mj-oGX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QmA-pc-tS9" secondAttribute="trailing" constant="14" id="wk0-mv-yGn"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="loginButton" destination="h7q-0L-FxP" id="0EK-RO-rxT"/>
+                        <outlet property="mainView" destination="8bC-Xf-vdC" id="uEo-t7-6Ko"/>
+                        <outlet property="signupButton" destination="QmA-pc-tS9" id="dEq-45-37b"/>
+                        <outlet property="videoView" destination="ZLV-nd-I7N" id="bKD-yO-10N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="429.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ambience-1" width="375" height="667"/>
+        <image name="login-secondary-logo" width="218" height="66"/>
+    </resources>
+</document>
