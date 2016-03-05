@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBF6489A1C8ADC5600B49C82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF648991C8ADC5600B49C82 /* AppDelegate.swift */; };
+		DBF6489C1C8ADC5600B49C82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF6489B1C8ADC5600B49C82 /* ViewController.swift */; };
+		DBF6489F1C8ADC5600B49C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF6489D1C8ADC5600B49C82 /* Main.storyboard */; };
+		DBF648A11C8ADC5600B49C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF648A01C8ADC5600B49C82 /* Assets.xcassets */; };
+		DBF648A41C8ADC5600B49C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF648A21C8ADC5600B49C82 /* LaunchScreen.storyboard */; };
+		DBF648AC1C8ADCBB00B49C82 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DBF648AB1C8ADCBB00B49C82 /* moments.mp4 */; };
+		DBF648AE1C8ADD6F00B49C82 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF648AD1C8ADD6F00B49C82 /* LoginController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBF648961C8ADC5600B49C82 /* Day 12 - SpotifyLoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 12 - SpotifyLoginScreen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF648991C8ADC5600B49C82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBF6489B1C8ADC5600B49C82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBF6489E1C8ADC5600B49C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBF648A01C8ADC5600B49C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBF648A31C8ADC5600B49C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBF648A51C8ADC5600B49C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF648AB1C8ADCBB00B49C82 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
+		DBF648AD1C8ADD6F00B49C82 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF648931C8ADC5600B49C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBF6488D1C8ADC5600B49C82 = {
+			isa = PBXGroup;
+			children = (
+				DBF648981C8ADC5600B49C82 /* Day 12 - SpotifyLoginScreen */,
+				DBF648971C8ADC5600B49C82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF648971C8ADC5600B49C82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF648961C8ADC5600B49C82 /* Day 12 - SpotifyLoginScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF648981C8ADC5600B49C82 /* Day 12 - SpotifyLoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DBF648991C8ADC5600B49C82 /* AppDelegate.swift */,
+				DBF6489B1C8ADC5600B49C82 /* ViewController.swift */,
+				DBF6489D1C8ADC5600B49C82 /* Main.storyboard */,
+				DBF648AD1C8ADD6F00B49C82 /* LoginController.swift */,
+				DBF648AB1C8ADCBB00B49C82 /* moments.mp4 */,
+				DBF648A01C8ADC5600B49C82 /* Assets.xcassets */,
+				DBF648A21C8ADC5600B49C82 /* LaunchScreen.storyboard */,
+				DBF648A51C8ADC5600B49C82 /* Info.plist */,
+			);
+			path = "Day 12 - SpotifyLoginScreen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF648951C8ADC5600B49C82 /* Day 12 - SpotifyLoginScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF648A81C8ADC5600B49C82 /* Build configuration list for PBXNativeTarget "Day 12 - SpotifyLoginScreen" */;
+			buildPhases = (
+				DBF648921C8ADC5600B49C82 /* Sources */,
+				DBF648931C8ADC5600B49C82 /* Frameworks */,
+				DBF648941C8ADC5600B49C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day 12 - SpotifyLoginScreen";
+			productName = "Day 12 - SpotifyLoginScreen";
+			productReference = DBF648961C8ADC5600B49C82 /* Day 12 - SpotifyLoginScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF6488E1C8ADC5600B49C82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Edouard Jamin";
+				TargetAttributes = {
+					DBF648951C8ADC5600B49C82 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8Y6CBMCLSD;
+					};
+				};
+			};
+			buildConfigurationList = DBF648911C8ADC5600B49C82 /* Build configuration list for PBXProject "Day 12 - SpotifyLoginScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF6488D1C8ADC5600B49C82;
+			productRefGroup = DBF648971C8ADC5600B49C82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF648951C8ADC5600B49C82 /* Day 12 - SpotifyLoginScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF648941C8ADC5600B49C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF648A41C8ADC5600B49C82 /* LaunchScreen.storyboard in Resources */,
+				DBF648AC1C8ADCBB00B49C82 /* moments.mp4 in Resources */,
+				DBF648A11C8ADC5600B49C82 /* Assets.xcassets in Resources */,
+				DBF6489F1C8ADC5600B49C82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF648921C8ADC5600B49C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF6489C1C8ADC5600B49C82 /* ViewController.swift in Sources */,
+				DBF648AE1C8ADD6F00B49C82 /* LoginController.swift in Sources */,
+				DBF6489A1C8ADC5600B49C82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBF6489D1C8ADC5600B49C82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF6489E1C8ADC5600B49C82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBF648A21C8ADC5600B49C82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF648A31C8ADC5600B49C82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBF648A61C8ADC5600B49C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBF648A71C8ADC5600B49C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBF648A91C8ADC5600B49C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day 12 - SpotifyLoginScreen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gobu.Day-12---SpotifyLoginScreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBF648AA1C8ADC5600B49C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day 12 - SpotifyLoginScreen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gobu.Day-12---SpotifyLoginScreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF648911C8ADC5600B49C82 /* Build configuration list for PBXProject "Day 12 - SpotifyLoginScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF648A61C8ADC5600B49C82 /* Debug */,
+				DBF648A71C8ADC5600B49C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF648A81C8ADC5600B49C82 /* Build configuration list for PBXNativeTarget "Day 12 - SpotifyLoginScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF648A91C8ADC5600B49C82 /* Debug */,
+				DBF648AA1C8ADC5600B49C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF6488E1C8ADC5600B49C82 /* Project object */;
+}
