@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Day_14___EmojiCasino" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hyperspace - iPhone" translatesAutoresizingMaskIntoConstraints="NO" id="ydU-rq-FAH">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dlS-n1-B5G">
+                                <rect key="frame" x="0.0" y="226" width="375" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="OU1-HU-ZpO"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="M3c-YO-0xH"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ko1-68-qWh">
+                                <rect key="frame" x="104" y="450" width="167" height="39"/>
+                                <color key="backgroundColor" red="0.71764705882352942" green="0.72941176470588232" blue="0.047058823529411764" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="k9F-sN-dny"/>
+                                    <constraint firstAttribute="width" constant="167" id="uYG-dX-BoF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                <state key="normal" title="Go!">
+                                    <color key="titleColor" red="0.15686274509803921" green="0.40000000000000002" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W2W-q8-Jxy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💔" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xan-iO-QKd">
+                                <rect key="frame" x="176" y="626" width="22" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="372-vx-Ouh"/>
+                                    <constraint firstAttribute="width" constant="22" id="tRc-hP-9bP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Xan-iO-QKd" secondAttribute="bottom" constant="20" id="06i-yN-dNS"/>
+                            <constraint firstItem="dlS-n1-B5G" firstAttribute="centerY" secondItem="ydU-rq-FAH" secondAttribute="centerY" id="3LY-Ia-uSu"/>
+                            <constraint firstItem="Ko1-68-qWh" firstAttribute="top" secondItem="dlS-n1-B5G" secondAttribute="bottom" constant="8" id="5GC-bP-Ghc"/>
+                            <constraint firstItem="Xan-iO-QKd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8ex-Ke-5W6"/>
+                            <constraint firstItem="ydU-rq-FAH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="HOF-EA-Dgz"/>
+                            <constraint firstItem="dlS-n1-B5G" firstAttribute="trailing" secondItem="ydU-rq-FAH" secondAttribute="trailing" id="PO0-R2-a3k"/>
+                            <constraint firstItem="ydU-rq-FAH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZtL-9N-fKE"/>
+                            <constraint firstItem="ydU-rq-FAH" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="bF9-a9-knL"/>
+                            <constraint firstItem="dlS-n1-B5G" firstAttribute="leading" secondItem="ydU-rq-FAH" secondAttribute="leading" id="f90-Yz-akc"/>
+                            <constraint firstAttribute="trailing" secondItem="ydU-rq-FAH" secondAttribute="trailing" id="sYo-Vj-ubT"/>
+                            <constraint firstItem="Ko1-68-qWh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sl6-4u-mub"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="emojiPicker" destination="dlS-n1-B5G" id="bI1-ly-mNo"/>
+                        <outlet property="goButton" destination="Ko1-68-qWh" id="9bN-Os-aYg"/>
+                        <outlet property="resultLabel" destination="Xan-iO-QKd" id="yJ2-d5-4ee"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="564.5" y="490.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Hyperspace - iPhone" width="1242" height="2208"/>
+    </resources>
+</document>
